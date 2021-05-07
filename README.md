@@ -13,6 +13,10 @@ This repository will be open source and it will wrap around the Akash CLI. This 
 
 This is also, in no way, affiliated with Akash - I am a engineer looking to provide something cool to the akashian community
 
+## Architecture
+
+![alt text](architecture.png)
+
 ## Setting up Akash with VSCode
 
 **Level: Intermidiate**

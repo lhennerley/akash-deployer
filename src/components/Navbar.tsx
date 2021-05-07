@@ -1,5 +1,5 @@
 import React from 'react';
-import { TerminalIcon } from '@heroicons/react/outline'
+import Image from 'next/image'
 
 const Navbar = () => {
     return (<nav><div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -27,9 +27,10 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button className="bg-gradient-to-r from-akash-red-dark via-akash-red to-akash-red-darker p-1 rounded text-gray-300 px-3 py-2 rounded-md text-sm font-medium hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                {/* <button className="bg-gradient-to-r from-akash-red-dark via-akash-red to-akash-red-darker p-1 rounded text-gray-300 px-3 py-2 rounded-md text-sm font-medium hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                     Create Deployment
-                </button>
+                </button> */}
+                <Image src="/Github.png" alt="" width="20" height="20"></Image>
                 <div className="ml-3 relative">
                     <div>
                         <button type="button" className="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
